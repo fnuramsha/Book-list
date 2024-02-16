@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
-    
+    <main>
+    <h1 id="head" class="heading"> My BookList </h1>
+    <div id ="error"></div>
+    <form id="form" class="center">
+        <div>
+           <label for="title"> Title </label> <br>
+            <input type="text" id="title" name="title" required> <br>
+         </div>
+        <div>
+        <label for="author"> Author</label> <br> 
+        <input type="text" id="author" name="author" required> <br>
+        </div>
+        <div>
+        <label for ="isbn"> ISBN# </label> <br>
+        <input type="text" id="isbn" name="isbn" required> <br> <br>
+        </div>
+       
+        <button type = "submit"> Add Book </button> <br> <br>
+        
+    </form>
+    <table  id="newData">
+        <tr>
+            <th id="showTitle"> Title </th>
+            <th id = "showAuthor"> Author </th>
+            <th id="showISBN"> ISBN </th>
+            <th class="delete-icon"> Delete </th>
+           
+        </tr>
+       
+
+    </table>
+</main>
+    <script src="script.js"></script>
 </body>
 </html>
