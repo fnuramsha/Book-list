@@ -20,6 +20,12 @@ th { text-align: center; }
 button {
     text-align: center;
 }
+#error {
+    color: red;
+}
+.hidden {
+    display: none;
+}
 
 
   
